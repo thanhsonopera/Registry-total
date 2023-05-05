@@ -1,0 +1,12 @@
+.coverMainPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.mainPhraseCover {
+    width: calc(100% - 400px);
+    height: 100vh;
+    margin-left: 360px;
+}
