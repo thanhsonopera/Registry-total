@@ -13,19 +13,22 @@ function MainPage() {
         phrase3: false,
         phrase4: false
     });
-    
+
     console.log(active);
 
 
     return (
         <>
             <activeContext.Provider value={{ active, setActive }}>
-                <div classname='coverMainPage'>
-                    <Navigation />
+                <div className='coverMainPage'>
 
-                    <section className="mainPhraseCover">
+                    <div className="navigation-cover">
+                        <Navigation />
+                    </div>
+
+                    <div className="mainPhraseCover">
                         <MainPhrase />
-                    </section>
+                    </div>
                 </div>
             </activeContext.Provider>
         </>

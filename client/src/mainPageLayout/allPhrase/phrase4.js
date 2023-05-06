@@ -16,6 +16,15 @@ const Phrase4 = () => {
                         <Formunit label='Mã số' />
                         <Formunit label='Ngày cấp' type='date' />
                     </div>
+
+                    <div className="formRow">
+                        <Formunit label='Biển kiểm soát' />
+                        <Formunit label='Tỉnh thành đăng kí' />
+                    </div>
+
+                    <div className="formRow">
+
+                    </div>
                 </form>
             </section>
         </div>
