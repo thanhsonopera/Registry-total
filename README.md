@@ -3,7 +3,10 @@
 Dev guide
 ---------
 open terminal in project root
-    pyenv/script/activate.bat
+    pyenv/scripts/activate.bat (cmd)
+    pyenv/scripts/activate.ps1 (powershell)
+    cd backend
+    python manage.py runserver
 
 superuser for admin
     username: admin
