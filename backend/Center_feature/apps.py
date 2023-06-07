@@ -1,8 +1,6 @@
 from django.apps import AppConfig
 
-from .models import inspection
 
-
-class CenterConfig(AppConfig):
+class CenterFeatureConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'center'
+    name = 'Center_feature'
