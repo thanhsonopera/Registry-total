@@ -7,7 +7,7 @@ function Phrase2() {
     return (
         <>
             <div className='coverPhrase2'>
-                <HeaderMainPage headertitle='Đăng kí tài khoản cho trung tâm đăng kiểm' />
+                <HeaderMainPage headertitle='Tạo tài khoản cho trung tâm đăng kiểm' />
 
                 <section className='info'>
                     <div className='infoTitle'>
